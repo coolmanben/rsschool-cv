@@ -3,9 +3,7 @@
   <head>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>CV coolmanben</title>
-    <style type="text/css">code{white-space: pre;}</style>
-    <style type="text/css">
-
+    <style>
       body {
         font-size: 20px;
         color: dimgrey;
@@ -80,7 +78,14 @@
           margin-top:0;
           margin-bottom:7px;
       }
-
+      details {
+        line-height: 1;    
+      }
+      code {
+        white-space: pre;
+        font-size: 15px;
+        font-weight: bold;
+      }
   </style>
   </head>
   
@@ -146,26 +151,25 @@
     <details>
       <summary>Details</summary>
       <code>
-      <h6>function capital(capitals){<Br><pre>
-          var newarray   = new Array();<Br>
-          for (let value of Object.values(capitals)) {<Br><pre>
-            if (value['state']) {<Br><pre>
-              var storcountryname = value['state']<Br></pre>
-            }<Br>
-            else{<Br><pre>
-              var storcountryname = value['country']<Br></pre>  
-            }<Br>
-            newarray.push("The capital of " + storcountryname + " is " + value['capital'] )<Br></pre>
-          }<Br>
-          return newarray<Br></pre>
-        }<Br>
-      </h6>     
+      function capital(capitals){
+          var newarray   = new Array();
+          for (let value of Object.values(capitals)) {
+            if (value['state']) {
+              var storcountryname = value['state']
+            }
+            else{
+              var storcountryname = value['country']
+            }
+            newarray.push("The capital of " + storcountryname + " is " + value['capital'] )
+          }
+          return newarray
+        }         
       </code>
     </details>
     <h2>Experience:</h2>
     <ul>
       <li>Software promrammer 2015 - 2018</li>
-      <li>Industrial controls programmer 2018-2021/li>
+      <li>Industrial controls programmer 2018-2021</li>
     </ul>
     <h2>Education</h2>
       <dl>
