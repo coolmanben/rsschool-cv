@@ -671,12 +671,6 @@ font-size: 23px;
     border-radius: 0px;
 }
 
-.main__wraper {
-
-    
-    
-    
-}
 .latestarticles {
     padding-top : 115px;
     padding-bottom: 0px;
@@ -749,10 +743,6 @@ font-size: 23px;
     font-size: 17px;
     line-height: 27px;
 /* identical to box height, or 159% */
-
-}
-.gen_about {
-   
 
 }
 
@@ -873,10 +863,6 @@ font-size: 23px;
     -webkit-background-size: cover;
     background-size: cover;
     align-items: center;
-}
-
-.heaher__frame {
-     /*font-family: 'Roboto'; */
 }
 
 .footer__wraper {
