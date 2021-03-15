@@ -1,3 +1,3 @@
 https://coolmanben.github.io/rsschool-cv/
 
-https://github.com/coolmanben/rsschool-cv/gh-pages/wildlife/
+https://github.com/coolmanben/rsschool-cv/wildlife/
