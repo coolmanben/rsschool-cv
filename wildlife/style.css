@@ -604,12 +604,30 @@ font-size: 23px;
     color: #CD6326;;
 }
 
+.survival__title:hover, .survival__title:focus {
+    color: #E39128;;
+}
+
+.survival__title:active {
+    color: #8F5613;
+}
+
+
 .survival__text {
     letter-spacing: normal;
     line-height: 150%;
     margin-top: 25px;
     margin-bottom: 25px;
 }
+
+.survival__text:hover, .survival__text:focus {
+    color: #666666;
+}
+
+.survival__text:active {
+    color: #333333;
+}
+
 
 .regular-UI {
     /* regular-UI */
@@ -658,6 +676,7 @@ font-size: 23px;
     padding-bottom: 0px;
 }
 
+
 .h3 {   
     font-style: normal;
     font-weight: normal;
@@ -675,8 +694,8 @@ font-size: 23px;
 
 .latestarticles__subtitle {
     padding: 25px 0;
-
 }
+
 .sh__2{   
 
     /* sh-2 */
@@ -795,6 +814,16 @@ font-size: 23px;
     width: 540px;
     background: #CCCCCC; 
     border: 1px solid #666666;
+}
+
+.getnotiged__text:hover, .getnotiged__text:focus {
+    color:#F7F7F7 ;
+    background: #E39128;
+}
+
+.getnotiged__text:active {
+    color:#F7F7F7 ;
+    background: #8F5613;
 }
 
 .getnotiged__submit {
