@@ -584,7 +584,7 @@ font-size: 23px;
     width: 100%;
     height: 100vh;
     max-height: 779px ;
-    background: url("../wildlife/assets/Rectangle.svg") center no-repeat;
+    background: url("../assets/Rectangle.svg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
 }
@@ -869,7 +869,7 @@ font-size: 23px;
 
     width: 100%;
     height: 360px;
-    background: url("../wildlife/assets/Foorer_Fon.svg") center no-repeat;
+    background: url("../assets/Foorer_Fon.svg") center no-repeat;
     -webkit-background-size: cover;
     background-size: cover;
     align-items: center;
