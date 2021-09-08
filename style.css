@@ -1,0 +1,82 @@
+body {
+  font-size: 20px;
+  color: dimgrey;
+  line-height: 1.6;
+  width: 800px;
+}
+
+/* Intro */
+.container {
+  display:flex;
+}
+
+.title {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  color: dimgrey;
+}
+
+.wrapper {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  float: left;
+}
+
+.photo {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.photo img {
+  height: auto;
+  width: 100%;
+}
+
+/* Titles of categories */
+h2 {
+    color:dimgrey;
+}
+/* There is a bar just before each category */
+h2:before {
+    content: "";
+    display: inline-block;
+    margin-right:1%;
+    width: 16%;
+    height: 10px;
+    background-color:lightskyblue;
+}
+
+h4 {
+  color: dimgrey;
+  text-align:justify;
+}
+
+table {
+  width: 100%;
+  border-top: solid;
+  border-bottom: solid;
+  border-color:#999999;
+}
+
+hr {
+  color: #A6A6A6;
+}
+  /* Definitions */
+dt {
+    float: left;
+    clear: left;
+    width: 17%;
+    font-weight: bold;
+}
+dd {
+    margin-left: 17%;
+}
+p {
+    margin-top:0;
+    margin-bottom:7px;
+}
